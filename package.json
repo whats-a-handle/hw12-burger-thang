@@ -1,0 +1,29 @@
+{
+  "name": "hw12-burger-thang",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whats-a-handle/hw12-burger-thang.git"
+  },
+  "author": "Will P <wpr0163@gmail.com> (https://github.com/whats-a-handle)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whats-a-handle/hw12-burger-thang/issues"
+  },
+  "homepage": "https://github.com/whats-a-handle/hw12-burger-thang#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.11",
+    "method-override": "^2.3.10",
+    "mysql2": "^1.5.2",
+    "path": "^0.12.7",
+    "sequelize": "^4.35.4"
+  }
+}
