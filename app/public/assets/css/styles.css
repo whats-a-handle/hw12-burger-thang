@@ -1,8 +1,17 @@
-.not-devoured{
 
+li{
+	padding-top: 10px;
+	color :#CAEBF2;
+}
+h1,h2,label,burger-name,radio-text{
+	color:#CAEBF2;
+}
 
+body{
+	background-color:#5d77a0;
+	color:#CAEBF2;
+}
 
-
-
-  
+.input-group{
+	width:50%;
 }

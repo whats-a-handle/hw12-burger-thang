@@ -5,18 +5,18 @@
 <h2>Add a Burger</h2>
 <form class="create-form">
 
-  <div class="form-group">
-    <label for="burg">Burger Name:</label>
-    <input type="text" id="burg" name="name">
+  <div class=" container input-group text-center">
+    <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></span>
+    <input type="text" id="burg" name="name" class="form-control" placeholder="Burger Name" aria-describedby="basic-addon1">
   </div>
 
   <div class="form-group">
     <label for="devoured">Devoured?</label><br>
-    <input type="radio" name="devoured" value="1" checked> Devoured!<br>
-    <input type="radio" name="devoured" value="0"> Not Devoured
+    <input  type="radio" name="devoured" value="1" checked> <span class="radio-text">Devoured!</span><br>
+    <input type="radio" name="devoured" value="0"> <span class="radio-text">Not Devoured!</span>
   </div>
 
-  <button type="submit">Add Burger</button>
+  <a role="button" type="submit" class="btn btn-primary">Submit</a>
 </form>
 </div>
 

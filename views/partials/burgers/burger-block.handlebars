@@ -1,8 +1,8 @@
-<li>
+<li class="burger-row">
 	
-	{{burger_name}}
+	<span class="burger-name">{{burger_name}}</span>
 	
 	<a role="button" class="change-devoured btn btn-primary" data-id="{{id}}" data-newdevoured="{{devoured}}">
-		{{#if devoured}}Devouring TIME!{{else}}Throw UP!{{/if}}
+		{{#if devoured}}Eat!{{else}}Throw up!{{/if}}
 	</a>
 </li>
