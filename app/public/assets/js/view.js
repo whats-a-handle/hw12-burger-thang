@@ -13,7 +13,6 @@ $(function() {
       data: newDevouredState,
     }).then(
       function() {
-        console.log("changed sleep to", newDevoured);
        window.location.reload();
         
       }
